@@ -4,7 +4,7 @@ import time
 from odoo import api, models, _
 from odoo.exceptions import UserError
 
-
+ 
 class ReportPartnerLedger(models.AbstractModel):
     _name = 'report.accounting_pdf_reports.report_partnerledger'
     _description = 'Partner Ledger Report'

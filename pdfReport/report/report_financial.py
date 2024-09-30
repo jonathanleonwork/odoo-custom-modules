@@ -163,3 +163,4 @@ class ReportFinancial(models.AbstractModel):
             'time': time,
             'get_account_lines': report_lines,
         }
+ 

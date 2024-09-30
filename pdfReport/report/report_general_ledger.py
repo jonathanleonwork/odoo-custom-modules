@@ -3,7 +3,7 @@
 import time
 from odoo import api, models, _
 from odoo.exceptions import UserError
-
+ 
 
 class ReportGeneralLedger(models.AbstractModel):
     _name = 'report.accounting_pdf_reports.report_general_ledger'
